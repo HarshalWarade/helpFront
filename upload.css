@@ -1,4 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins&family=Roboto&display=swap');*{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Nanum Gothic', sans-serif;/* font-family: 'Poppins', sans-serif; *//* font-family: 'Roboto', sans-serif; */scroll-behavior: smooth;}.h_nav{height: 10vh;display: flex;justify-content: center;align-items: center;gap: 14rem;font-weight: 700;}.h_nav1{height: 10vh;display: flex;justify-content:-between;align-items: center;padding: 0 50px;}.h_nav1 .h_icon{font-size: 37px;}.h_nav1 .h_links{width: 40%;display: flex;justify-content: space-between;align-items: center;}.h_nav1 .h_links a{text-decoration: none;font-weight: 700;color: black;}.h_nav a{text-decoration: none;}.h_links a.h_active{color: #9d00ff;}.h_active, .h{color: #9d00ff;}.h_nav_shade{box-shadow: 0 0 40px #0000001f;}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins&family=Roboto&display=swap');*{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Nanum Gothic', sans-serif;/* font-family: 'Poppins', sans-serif; *//* font-family: 'Roboto', sans-serif; */scroll-behavior: smooth;}.h_nav{height: 10vh;display: flex;justify-content: center;align-items: center;gap: 14rem;font-weight: 700;}.h_nav1{height: 10vh;display: flex;justify-content:space-between;align-items: center;padding: 0 50px;}
+.h_nav1 .h_icon{
+    font-size: 37px;
+}
+.h_nav1 .h_links{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h_nav1 .h_links a{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+.h_nav a{
+    text-decoration: none;
+}
+.h_links a.h_active{
+    color: #9d00ff;
+}
+.h_active, .h{
+    color: #9d00ff;
+}
+.h_nav_shade{
+    box-shadow: 0 0 40px #0000001f;
+}
 .h_card{
     /* border: 2px solid #9d00ff; */
     box-shadow: 0 0 40px #0000001f;
@@ -17,29 +43,24 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
-    width: 100%;
 }
 .grouped_h_cards_rpt3{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
-    width: 100%;
 }
 .grouped_h_cards_rpt4{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 3rem;
-    width: 100%;
 }
 .grouped_h_cards_rpt5{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 3rem;
-    width: 100%;
 }
 .grouped_h_cards_rpt6{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 3rem;
-    width: 100%;
 }
