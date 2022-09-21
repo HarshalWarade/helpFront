@@ -152,6 +152,7 @@
     overflow-y: auto;
 }
 #parent #content{
+    padding: 0 30px;
     /* background-color: red; */
     height: 67vh;
     overflow-y: auto;
@@ -166,12 +167,10 @@
 }
 #parent #sidebar div a{
     text-decoration: none;
-    color: var(--baseColor1);
+    color: black;
     font-weight: 700;
     letter-spacing: 2px;
 }
 .border{
     border: 2px solid #ccc;
 }
-
-
