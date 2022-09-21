@@ -77,63 +77,66 @@
             <div id="sidebar">
                 <div>
                     <a href="#navbars" id="navbars">Navbar</a>
+                    <a href="#navbars" id="cards">Cards</a>
                 </div>
             </div>
             <div id="content">
-                <div id="h_nav" class="border">
-                    <div>
+                <div id="navbarsds">
 
-                        <nav class="h_nav">
-                            <a href="#">Home</a>
-                            <a href="#">About</a>
-                            <a href="#">Services</a>
-                        </nav>
-                    </div>
-                    <div></div>
-                    <pre><code class="language-console">&lt;nav class="h_nav">
+                    <div id="h_nav" class="border">
+                        <div>
+
+                            <nav class="h_nav h_nav_shade">
+                                <a href="#">Home</a>
+                                <a href="#">About</a>
+                                <a href="#">Services</a>
+                            </nav>
+                        </div>
+                        <div></div>
+                        <pre><code class="language-console">&lt;nav class="h_nav">
   &lt;a href="#">Home&lt;/a>
   &lt;a href="#">About&lt;/a>
   &lt;a href="#">Services&lt;/a>
 &lt;/nav></code></pre>
-                </div>
-                <br>
-                <br>
-                <div id="h_nav" class="border">
-                    <div>
-
-                        <nav class="h_nav">
-                            <a href="#" class="h_active">Home</a>
-                            <a href="#">About</a>
-                            <a href="#">Services</a>
-                        </nav>
                     </div>
-                    <div></div>
-                    <pre><code class="language-console">&lt;nav class="h_nav">
+                    <br>
+                    <br>
+                    <div id="h_nav" class="border">
+                        <div>
+
+                            <nav class="h_nav h_nav_shade">
+                                <a href="#" class="h_active">Home</a>
+                                <a href="#">About</a>
+                                <a href="#">Services</a>
+                            </nav>
+                        </div>
+                        <div></div>
+                        <pre><code class="language-console">&lt;nav class="h_nav">
   &lt;a href="#" class="h_active">Home&lt;/a>
   &lt;a href="#">About&lt;/a>
   &lt;a href="#">Services&lt;/a>
 &lt;/nav></code></pre>
-                </div>
-
-
-                <br>
-                <br>
-                <div id="h_nav1" class="border">
-                    <div>
-
-                        <nav class="h_nav1">
-                            <div class="h_icon">
-                                <i class="fa-brands fa-apple"></i> BrandLogo
-                            </div>
-                            <div class="h_links">
-                                <a href="#" class="h_active">Home</a>
-                                <a href="#">About</a>
-                                <a href="#">Services</a>
-                            </div>
-                        </nav>
                     </div>
-                    <div></div>
-                    <pre><code class="language-console">&lt;nav class="h_nav1">
+
+
+                    <br>
+                    <br>
+                    <div id="h_nav1" class="border">
+                        <div>
+
+                            <nav class="h_nav1 h_nav_shade">
+                                <div class="h_icon">
+                                    <i class="fa-brands fa-apple"></i> BrandLogo
+                                </div>
+                                <div class="h_links">
+                                    <a href="#" class="h_active">Home</a>
+                                    <a href="#">About</a>
+                                    <a href="#">Services</a>
+                                </div>
+                            </nav>
+                        </div>
+                        <div></div>
+                        <pre><code class="language-console">&lt;nav class="h_nav1">
   &lt;div class="h_icon">
       &lt;i class="fa-brands fa-apple">&lt;/i> BrandLogo
   &lt;/div>
@@ -143,10 +146,92 @@
       &lt;a href="#">Services&lt;/a>
   &lt;/div>
 &lt;/nav></code></pre>
+                    </div>
+
+
+
                 </div>
+                <div id="cardsds">
+                    <h2>Single Card</h2>
+                    <br>
+                    <hr>
+                    <br>
+                    <br>
+                    <div class="h_card1_parent">
+                        <div class="h_card">
+                            <h3>Heading</h3>
+                            <p>Body of the card...</p>
+                        </div>
+                        <pre><code class="language-console">&lt;div class="h_card">
+  &lt;h3>Heading&lt;/h3>
+  &lt;p>Body of the card...&lt;/p>
+&lt;/div></code></pre>
+                    </div>
+                    <br><br>
+                    <h2>Group of Cards</h2>
+                    <br>
+                    <hr>
+                    <br><br>
+                    <div class="grouped_h_cards_rpt3">
+                        <div class="h_card">
+                            <h3>Heading</h3>
+                            <p>Body of the card...</p>
+                        </div>
+                        <div class="h_card">
+                            <h3>Heading</h3>
+                            <p>Body of the card...</p>
+                        </div>
+                        
+                        <div class="h_card">
+                            <h3>Heading</h3>
+                            <p>Body of the card...</p>
+                        </div>
+                        <div class="h_card">
+                            <h3>Heading</h3>
+                            <p>Body of the card...</p>
+                        </div>
+                        <div class="h_card">
+                            <h3>Heading</h3>
+                            <p>Body of the card...</p>
+                        </div>
+                        <div class="h_card">
+                            <h3>Heading</h3>
+                            <p>Body of the card...</p>
+                        </div>
+                    </div>
+                    <br>
+                    <pre><code class="language-console">&lt;div class="grouped_h_cards_rpt3">
+  &lt;div class="h_card">
+      &lt;h3>Heading&lt;/h3>
+      &lt;p>Body of the card...&lt;/p>
+  &lt;/div>
+  &lt;div class="h_card">
+      &lt;h3>Heading&lt;/h3>
+      &lt;p>Body of the card...&lt;/p>
+  &lt;/div>
+  
+  &lt;div class="h_card">
+      &lt;h3>Heading&lt;/h3>
+      &lt;p>Body of the card...&lt;/p>
+  &lt;/div>
+  &lt;div class="h_card">
+      &lt;h3>Heading&lt;/h3>
+      &lt;p>Body of the card...&lt;/p>
+  &lt;/div>
+  &lt;div class="h_card">
+      &lt;h3>Heading&lt;/h3>
+      &lt;p>Body of the card...&lt;/p>
+  &lt;/div>
+  &lt;div class="h_card">
+      &lt;h3>Heading&lt;/h3>
+      &lt;p>Body of the card...&lt;/p>
+  &lt;/div>
+&lt;/div></code></pre>
+                    
 
+                        
 
-
+                </div>
             </div>
         </div>
     </div>
