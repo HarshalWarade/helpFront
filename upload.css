@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    scroll-behavior: smooth;
+}
+.h_nav{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14rem;
+    font-weight: 700;
+}
+.h_nav1{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+.h_nav1 .h_icon{
+    font-size: 37px;
+}
+.h_nav1 .h_links{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h_nav1 .h_links a{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+.h_nav a{
+    text-decoration: none;
+}
+.h_links a.h_active{
+    color: rgb(157, 0, 255);
+}
+.h_active, .h{
+    color: rgb(157, 0, 255);
+}
