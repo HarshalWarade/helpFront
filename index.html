@@ -20,8 +20,7 @@
         <h2>helpFront</h2>
         <div>
             <a href="index.html" class="active">Home</a>
-            <a href="#">Docs</a>
-            <a href="help.html">Help</a>
+            <a href="help.html">Docs</a>
         </div>
     </nav>
     <div class="adjustBlob">
@@ -64,8 +63,7 @@
             <div id="buttons">
                 <div>
                     <a href="#getSnippets" id="snippet">Get Snippet</a>
-                    <a href="#getStarted" id="more">Learn More</a>
-                    <a href="index.html" id="readDocs">Read Docs</a>
+                    <a href="help.html" id="readDocs">Read Docs</a>
                 </div>
             </div>
         </div>
@@ -109,6 +107,7 @@
                     <a href="#navbars" id="navbars">Navbar</a>
                     <a href="#navbars" id="btns">Buttons</a>
                     <a href="#navbars" id="cards">Cards</a>
+                    <a href="#navbars" id="layouts">Quick Layouts</a>
                 </div>
             </div>
             <div id="content">
@@ -252,7 +251,9 @@
                     <p>A group of cards that could be used to display many cards in a div. They will align themselves to
                         the center of the div automatically. In the property <b>grouped_h_cards_rpt3</b>, the <b>3</b>
                         represent the cards to be shown in a row, or you could assume it as the number of columns the
-                        card would be displayed in. It could be changed to maximum limit of <b>6</b>. And <b>don't worry about their weird width</b>. They'll adapt a very impressive width once the <b>content</b> is added to the <b>body</b> of the cards.</p>
+                        card would be displayed in. It could be changed to maximum limit of <b>6</b>. And <b>don't worry
+                            about their weird width</b>. They'll adapt a very impressive width once the <b>content</b>
+                        is added to the <b>body</b> of the cards.</p>
                     <div class="grouped_h_cards_rpt3 h_px-4">
                         <div class="h_card h_mg_ce-x h_wa">
                             <h3>Heading</h3>
@@ -351,7 +352,8 @@
                     <p>You can add multiple cards to the <b>parent div</b> and also can arrange them the way you want.
                         Just simply you need to add <b>grouped_h_cards_rpt3</b> in your <b>parent div</b> holding the
                         image cards. You can adjust the number of columns by chainging the <b>3</b> in
-                        <b>grouped_h_cards_rpt3</b> upto maximum of 6.</p>
+                        <b>grouped_h_cards_rpt3</b> upto maximum of 6.
+                    </p>
                     <div id="h_imageCard">
                         <div class="h_img-card">
                             <div class="h_img">
@@ -386,6 +388,102 @@
 
 
 
+                </div>
+
+                <div id="layoutsds">
+                    <p><b>Aligning items center</b></p>
+                    <div class="border-dark flex-holder">
+                        <div class="h_jus-con-cen">
+                            <div class="h-box1 c-box border">Box-1</div>
+                            <div class="h-box2 c-box border">Box-2</div>
+                            <div class="h-box3 c-box border">Box-3</div>
+                        </div>
+                    </div>
+
+                    <pre><code class="language-console">&lt;div class="h_jus-con-cen">
+  &lt;div class="h-box1 c-box border">Box-1&lt;/div>
+  &lt;div class="h-box2 c-box border">Box-2&lt;/div>
+  &lt;div class="h-box3 c-box border">Box-3&lt;/div>
+&lt;/div></code></pre>
+                    <br><br>
+                    <p><b>Spacing in between</b></p>
+                    <div class="border-dark flex-holder">
+                        <div class="h_jus-con-spa-bet">
+                            <div class="h-box1 c-box border">Box-1</div>
+                            <div class="h-box2 c-box border">Box-2</div>
+                            <div class="h-box3 c-box border">Box-3</div>
+                        </div>
+                    </div>
+
+                    <pre><code class="language-console">&lt;div class="h_jus-con-spa-bet">
+  &lt;div class="h-box1 c-box border">Box-1&lt;/div>
+  &lt;div class="h-box2 c-box border">Box-2&lt;/div>
+  &lt;div class="h-box3 c-box border">Box-3&lt;/div>
+&lt;/div></code></pre>
+                    <br><br>
+                    <p><b>Spacing evenly</b></p>
+                    <div class="border-dark flex-holder">
+                        <div class="h_jus-con-spa-eve">
+                            <div class="h-box1 c-box border">Box-1</div>
+                            <div class="h-box2 c-box border">Box-2</div>
+                            <div class="h-box3 c-box border">Box-3</div>
+                        </div>
+                    </div>
+
+                    <pre><code class="language-console">&lt;div class="h_jus-con-spa-eve">
+  &lt;div class="h-box1 c-box border">Box-1&lt;/div>
+  &lt;div class="h-box2 c-box border">Box-2&lt;/div>
+  &lt;div class="h-box3 c-box border">Box-3&lt;/div>
+&lt;/div></code></pre>
+
+
+
+                    <br><br>
+                    <p><b>Aligning to flex start</b></p>
+                    <div class="border-dark flex-holder">
+                        <div class="h_jus-con-fle-sta">
+                            <div class="h-box1 c-box border">Box-1</div>
+                            <div class="h-box2 c-box border">Box-2</div>
+                            <div class="h-box3 c-box border">Box-3</div>
+                        </div>
+                    </div>
+
+                    <pre><code class="language-console">&lt;div class="h_jus-con-fle-sta">
+  &lt;div class="h-box1 c-box border">Box-1&lt;/div>
+  &lt;div class="h-box2 c-box border">Box-2&lt;/div>
+  &lt;div class="h-box3 c-box border">Box-3&lt;/div>
+&lt;/div></code></pre>
+
+
+                    <br><br>
+                    <p><b>Aligning to flex end</b></p>
+                    <div class="border-dark flex-holder">
+                        <div class="h_jus-con-fle-end">
+                            <div class="h-box1 c-box border">Box-1</div>
+                            <div class="h-box2 c-box border">Box-2</div>
+                            <div class="h-box3 c-box border">Box-3</div>
+                        </div>
+                    </div>
+                    <pre><code class="language-console">&lt;div class="h_jus-con-fle-end">
+  &lt;div class="h-box1 c-box border">Box-1&lt;/div>
+  &lt;div class="h-box2 c-box border">Box-2&lt;/div>
+  &lt;div class="h-box3 c-box border">Box-3&lt;/div>
+&lt;/div></code></pre>
+
+                    <br><br>
+                    <p><b>Spacing around</b></p>
+                    <div class="border-dark flex-holder">
+                        <div class="h_jus-con-spa-aro">
+                            <div class="h-box1 c-box border">Box-1</div>
+                            <div class="h-box2 c-box border">Box-2</div>
+                            <div class="h-box3 c-box border">Box-3</div>
+                        </div>
+                    </div>
+                    <pre><code class="language-console">&lt;div class="h_jus-con-spa-aro">
+&lt;div class="h-box1 c-box border">Box-1&lt;/div>
+&lt;div class="h-box2 c-box border">Box-2&lt;/div>
+&lt;div class="h-box3 c-box border">Box-3&lt;/div>
+&lt;/div></code></pre>
                 </div>
             </div>
         </div>
