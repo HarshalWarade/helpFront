@@ -2,7 +2,7 @@
 https://prismjs.com/download.html#themes=prism-twilight&languages=markup+css+clike+javascript+markup-templating+php&plugins=toolbar+copy-to-clipboard */
 code[class*=language-],
 pre[class*=language-] {
-    color: #fff;
+    color: #000;
     /* background: ; */
     font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
     font-size: 1em;
@@ -24,7 +24,7 @@ pre[class*=language-] {
 
 :not(pre)>code[class*=language-],
 pre[class*=language-] {
-    background: #000000;
+    background: #F8F9FA;
     /* height: ; */
 }
 
@@ -55,7 +55,7 @@ code[class*=language-]::-moz-selection,
 pre[class*=language-] ::-moz-selection,
 pre[class*=language-]::-moz-selection {
     text-shadow: none;
-    background: hsla(0, 0%, 93%, .15)
+    background: rgb(0, 0, 0);
 }
 
 code[class*=language-] ::selection,
@@ -63,7 +63,8 @@ code[class*=language-]::selection,
 pre[class*=language-] ::selection,
 pre[class*=language-]::selection {
     text-shadow: none;
-    background: rgba(237, 237, 237, 0.15)
+    background: #C5C6C6;
+    color: black;
 }
 
 :not(pre)>code[class*=language-] {
