@@ -157,6 +157,9 @@
     height: 67vh;
     overflow-y: auto;
 }
+#parent #content::-webkit-scrollbar{
+    width: 0;
+}
 #parent #sidebar div{
     display: flex;
     padding: 20px 0;
@@ -173,4 +176,26 @@
 }
 .border{
     border: 2px solid #ccc;
+}
+#getSnippets{
+    height: auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 40px;
+    flex-direction: column;
+}
+#getSnippets h1{
+    margin-bottom: 40px;
+}
+#getSnippets p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+p{
+    line-height: 27px;
+}
+
+pre{
+    max-height: 40vh;
 }
