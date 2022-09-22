@@ -6,6 +6,7 @@
     font-family: 'Nanum Gothic', sans-serif;
     /* font-family: 'Poppins', sans-serif; */
     /* font-family: 'Roboto', sans-serif; */
+    outline: none;
     scroll-behavior: smooth;
 }
 *:root{
@@ -198,4 +199,18 @@ p{
 
 pre{
     max-height: 40vh;
+}
+
+#help-container{
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    padding: 40px;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+#content-help{
+    /* background-color: red; */
+    width: 75vw;
 }
