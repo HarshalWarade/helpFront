@@ -2,6 +2,9 @@ let navbarsds = document.getElementById('navbarsds');
 let navbars = document.getElementById('navbars');
 let cards = document.getElementById('cards');
 navbars.style.color = '#9d00ff';
+
+
+
 let cardsds = document.getElementById('cardsds');
 cardsds.style.display = 'none';
 navbars.addEventListener('click', function(){
