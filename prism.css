@@ -63,7 +63,7 @@ code[class*=language-]::selection,
 pre[class*=language-] ::selection,
 pre[class*=language-]::selection {
     text-shadow: none;
-    background: #C5C6C6;
+    background: #dfdfdf;
     color: black;
 }
 
@@ -229,12 +229,10 @@ button {
 div.code-toolbar>.toolbar>.toolbar-item>a,
 div.code-toolbar>.toolbar>.toolbar-item>button,
 div.code-toolbar>.toolbar>.toolbar-item>span {
-    color: #bbb;
+    color: #fff;
     font-size: .8em;
-    padding: 0 .5em;
-    background: #f5f2f0;
-    background: rgba(224, 224, 224, .2);
-    box-shadow: 0 2px 0 0 rgba(0, 0, 0, .2);
+    padding: 5px 6px;
+    background: #7f7f7f;
     border-radius: .5em;
     position: relative;
     right: 30px;
@@ -247,6 +245,6 @@ div.code-toolbar>.toolbar>.toolbar-item>button:focus,
 div.code-toolbar>.toolbar>.toolbar-item>button:hover,
 div.code-toolbar>.toolbar>.toolbar-item>span:focus,
 div.code-toolbar>.toolbar>.toolbar-item>span:hover {
-    color: inherit;
+    color: white;
     text-decoration: none
 }
