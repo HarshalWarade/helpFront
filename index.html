@@ -65,10 +65,40 @@
                 <div>
                     <a href="#getStarted" id="more">Learn More</a>
                     <a href="index.html" id="readDocs">Read Docs</a>
+                    <a href="#getSnippets" id="snippet">Get Snippet</a>
                 </div>
             </div>
         </div>
     </div>
+
+    <div id="getSnippets">
+        <h1>Get &lt;HTML> snippet</h1>
+        <p>Copy this basic &lt;HTML> template, and you're all set to use the features of this site.</p>
+        <div id="snippetCode">
+            <pre><code class="language-console">&lt;!DOCTYPE html>
+  &lt;html lang="en">
+  
+  &lt;head>
+      &lt;meta charset="UTF-8">
+      &lt;meta http-equiv="X-UA-Compatible" content="IE=edge">
+      &lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+      &lt;title>helpFront-used&lt;/title>
+      &lt;link rel="stylesheet" href="https://harshalwarade.github.io/helpFront/upload.css">
+      &lt;link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+          integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+      &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  &lt;/head>
+  
+  &lt;body>
+      &lt;h1>Thanks for using helpFront&lt;/h1>
+  &lt;/body>
+  
+&lt;/html></code></pre>
+        </div>
+    </div>
+
+
     <div id="getStarted">
         <h1>Get started any way you want</h1>
         <p>To and foremost, in order to use any of the layouts specified on this page, you must first include the CDN to
@@ -86,14 +116,14 @@
                     <div id="h_nav" class="border">
                         <div>
 
-                            <nav class="h_nav h_nav_shade">
+                            <nav class="h_nav h_nav_shade h_links">
                                 <a href="#">Home</a>
                                 <a href="#">About</a>
                                 <a href="#">Services</a>
                             </nav>
                         </div>
                         <div></div>
-                        <pre><code class="language-console">&lt;nav class="h_nav">
+                        <pre><code class="language-console">&lt;nav class="h_nav h_nav_shade h_links">
   &lt;a href="#">Home&lt;/a>
   &lt;a href="#">About&lt;/a>
   &lt;a href="#">Services&lt;/a>
@@ -104,14 +134,14 @@
                     <div id="h_nav" class="border">
                         <div>
 
-                            <nav class="h_nav h_nav_shade">
+                            <nav class="h_nav h_nav_shade h_links">
                                 <a href="#" class="h_active">Home</a>
                                 <a href="#">About</a>
                                 <a href="#">Services</a>
                             </nav>
                         </div>
                         <div></div>
-                        <pre><code class="language-console">&lt;nav class="h_nav">
+                        <pre><code class="language-console">&lt;nav class="h_nav h_nav_shade h_links">
   &lt;a href="#" class="h_active">Home&lt;/a>
   &lt;a href="#">About&lt;/a>
   &lt;a href="#">Services&lt;/a>
@@ -136,7 +166,7 @@
                             </nav>
                         </div>
                         <div></div>
-                        <pre><code class="language-console">&lt;nav class="h_nav1">
+                        <pre><code class="language-console">&lt;nav class="h_nav1 h_nav_shade">
   &lt;div class="h_icon">
       &lt;i class="fa-brands fa-apple">&lt;/i> BrandLogo
   &lt;/div>
@@ -158,6 +188,7 @@
                     <br>
                     <br>
                     <div class="h_card1_parent">
+                        <p>Single Card for item display purpose. Provided with heading and card body.</p>
                         <div class="h_card">
                             <h3>Heading</h3>
                             <p>Body of the card...</p>
@@ -172,64 +203,92 @@
                     <br>
                     <hr>
                     <br><br>
+                    <p>A group of cards that could be used to display many cards in a div. They will align themselves to
+                        the center of the div automatically. In the property <b>grouped_h_cards_rpt3</b>, the <b>3</b>
+                        represent the cards to be shown in a row, or you could assume it as the number of columns the
+                        card would be displayed in. It could be changed to maximum limit of <b>6</b>.</p>
                     <div class="grouped_h_cards_rpt3">
-                        <div class="h_card">
+                        <div class="h_card h_mg_ce-x">
                             <h3>Heading</h3>
                             <p>Body of the card...</p>
                         </div>
-                        <div class="h_card">
+                        <div class="h_card h_mg_ce-x">
                             <h3>Heading</h3>
                             <p>Body of the card...</p>
                         </div>
-                        
-                        <div class="h_card">
+
+                        <div class="h_card h_mg_ce-x">
                             <h3>Heading</h3>
                             <p>Body of the card...</p>
                         </div>
-                        <div class="h_card">
+                        <div class="h_card h_mg_ce-x">
                             <h3>Heading</h3>
                             <p>Body of the card...</p>
                         </div>
-                        <div class="h_card">
+                        <div class="h_card h_mg_ce-x">
                             <h3>Heading</h3>
                             <p>Body of the card...</p>
                         </div>
-                        <div class="h_card">
+                        <div class="h_card h_mg_ce-x">
                             <h3>Heading</h3>
                             <p>Body of the card...</p>
                         </div>
                     </div>
                     <br>
                     <pre><code class="language-console">&lt;div class="grouped_h_cards_rpt3">
-  &lt;div class="h_card">
+  &lt;div class="h_card h_mg_ce-x">
       &lt;h3>Heading&lt;/h3>
       &lt;p>Body of the card...&lt;/p>
   &lt;/div>
-  &lt;div class="h_card">
+  &lt;div class="h_card h_mg_ce-x">
       &lt;h3>Heading&lt;/h3>
       &lt;p>Body of the card...&lt;/p>
   &lt;/div>
   
-  &lt;div class="h_card">
+  &lt;div class="h_card h_mg_ce-x">
       &lt;h3>Heading&lt;/h3>
       &lt;p>Body of the card...&lt;/p>
   &lt;/div>
-  &lt;div class="h_card">
+  &lt;div class="h_card h_mg_ce-x">
       &lt;h3>Heading&lt;/h3>
       &lt;p>Body of the card...&lt;/p>
   &lt;/div>
-  &lt;div class="h_card">
+  &lt;div class="h_card h_mg_ce-x">
       &lt;h3>Heading&lt;/h3>
       &lt;p>Body of the card...&lt;/p>
   &lt;/div>
-  &lt;div class="h_card">
+  &lt;div class="h_card h_mg_ce-x">
       &lt;h3>Heading&lt;/h3>
       &lt;p>Body of the card...&lt;/p>
   &lt;/div>
 &lt;/div></code></pre>
-                    
+                    <br><br>
+                    <h2>Featured Cards</h2>
+                    <br>
+                    <hr>
+                    <br><br>
+                    <p>This card could be used to highlight the heading of the page, or to show the priority of a website. In this example <b>h_hgt-3</b> class is used, in which <b>3</b> means, set height to <b>30vh</b>, you can adjust it accordingly to <b>10</b>, which means the maximum height of <b>100vh</b>.</p>
+                    <div id="h_featured" class="h_hgt-3">
+                        <div class="h_fe-card">
+                            <div class="h_fe-heading">
+                                Heading of the card
+                            </div>
+                            <div class="h_fe-body h_px-2-3">
+                                <p>Body of the featured card.</p>
+                            </div>
+                        </div>
+                    </div>
 
-                        
+                    <pre><code class="language-console">&lt;div id="h_featured" class="h_hgt-3">
+  &lt;div class="h_fe-card">
+      &lt;div class="h_fe-heading">
+          Heading of the card
+      &lt;/div>
+      &lt;div class="h_fe-body h_px-2-3">
+          &lt;p>Body of the featured card.&lt;/p>
+      &lt;/div>
+  &lt;/div>
+&lt;/div></code></pre>
 
                 </div>
             </div>
