@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    outline: none;
+    scroll-behavior: smooth;
+}
+*:root{
+    --navHeight: 13vh;
+    --lihuspread: 0 0 40px rgba(0, 0, 0, 0.12);
+    --baseColor1: rgb(157, 0, 255);
+}
+*::selection{
+    background: var(--baseColor1);
+    color: white;
+}
+#mainNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--navHeight);
+    box-shadow: var(--lihuspread);
+    padding: 0 30px;
+    /* flex: 1; */
+}
+#mainNav h2{
+    color: var(--baseColor1);
+    font-weight: 800;
+    font-size: 34px;
+}
+#mainNav div{
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12rem;
+    /* flex: 2;  */
+}
+#mainNav div a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition: 0.4s ease;
+}
+#mainNav div a.active{
+    color: var(--baseColor1);
+    font-weight: 800;
+}
+#mainNav div a:hover{
+    color: var(--baseColor1);
+}
+#firstContainer{
+    height: calc(100vh - var(--navHeight));
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3rem;
+}
+#firstContainer .firstDiv{
+    display: flex;
+    justify-content: center;
+    padding: 0 30px;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+#firstContainer .firstDiv p{
+    line-height: 30px;
+}
+#firstContainer div:nth-child(2){
+    font-size: 18px;
+}
+#firstContainer div:nth-child(1) h1 span{
+    color: var(--baseColor1);
+}
+.adjustBlob{
+    position: absolute;
+    width: 60%;
+    z-index:-1;
+}
+.creatAnother{
+    position: absolute;
+    width: 40%;
+    top: 10%;
+    opacity: 0.05;
+    left: 44%;
+    z-index:-123897 ;
+}
+#buttons{
+    /* border: 2px solid var(--baseColor1); */
+    width: 70%;
+}
+
+#buttons div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 3rem; */
+}
+
+#buttons div a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    transition: 0.4s ease;
+    background: var(--baseColor1);
+    border: 2px solid var(--baseColor1);
+    border-radius: 10px;
+}
+#buttons div a:nth-child(1){
+    background: none;
+    border: 2px solid var(--baseColor1);
+    color: var(--baseColor1);
+}
+.imgClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgClass img{
+    height: 50%;
+    width: 70%;
+}
+#buttons div a:hover{
+    background: var(--baseColor1);
+    color: white;
+}
+#getStarted{
+    height: 100vh;
+    padding: 40px;
+}
+#getStarted h1{
+    /* border: 2px solid red; */
+    padding: 40px 0;
+}
+#getStarted p{
+    margin-bottom: 40px;
+}
+
+#parent{
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    gap: 2rem;
+}
+#parent #sidebar{
+    /* background-color: red; */
+    height: 67vh;
+    overflow-y: auto;
+}
+#parent #content{
+    padding: 0 30px;
+    /* background-color: red; */
+    height: 67vh;
+    overflow-y: auto;
+}
+#parent #content::-webkit-scrollbar{
+    width: 0;
+}
+#parent #sidebar div{
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+#parent #sidebar div a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.border{
+    border: 2px solid #ccc;
+}
+#getSnippets{
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    flex-direction: column;
+}
+#getSnippets h1{
+    margin-bottom: 40px;
+}
+#getSnippets p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+p{
+    line-height: 27px;
+}
+
+pre{
+    max-height: 40vh;
+}
+
+#help-container{
+    height: 100vh;
+    display: flex;
+    padding: 40px;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+#content-help{
+    width: 75vw;
+}
+
