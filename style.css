@@ -102,7 +102,7 @@
     /* gap: 3rem; */
 }
 
-#buttons div a{
+#buttons div a:nth-child(1){
     padding: 10px 20px;
     text-decoration: none;
     font-weight: 700;
@@ -111,11 +111,6 @@
     background: var(--baseColor1);
     border: 2px solid var(--baseColor1);
     border-radius: 10px;
-}
-#buttons div a:nth-child(1){
-    background: none;
-    border: 2px solid var(--baseColor1);
-    color: var(--baseColor1);
 }
 .imgClass{
     display: flex;
@@ -126,7 +121,7 @@
     height: 50%;
     width: 70%;
 }
-#buttons div a:hover{
+#buttons div a:nth-child(1):hover{
     background: var(--baseColor1);
     color: white;
 }
@@ -146,16 +141,17 @@
     display: grid;
     grid-template-columns: 1fr 9fr;
     gap: 2rem;
+    padding: 20px;
+    height: 100vh;
 }
 #parent #sidebar{
     /* background-color: red; */
-    height: 67vh;
+    height: 100vh;
     overflow-y: auto;
 }
 #parent #content{
     padding: 0 30px;
-    /* background-color: red; */
-    height: 67vh;
+    height: 96%;
     overflow-y: auto;
 }
 #parent #content::-webkit-scrollbar{
@@ -212,3 +208,7 @@ pre{
     width: 75vw;
 }
 
+.h_footer
+{
+    border: 2px solid #ccc;
+}
